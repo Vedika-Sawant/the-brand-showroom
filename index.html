@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @media  screen and (min-width:480px) {
+             .body{
+            margin:100%;
+            padding:100%;
+            height: 100%;
+            width: 100%;
+            }
+        }
+        .header{
+            position:static;
+            top:0;
+            left:0;
+            width:100%;
+            padding:35px 12%;
+            background: pink;
+            backdrop-filter: blur(10px) ;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+             
+            }
+            
+            .home {
+                 width: 100%;
+                 min-height: 100vh;
+                background: rgb(241, 241, 241);
+                display: flex;
+                   align-items: center;
+                 gap: 7em;
+                padding: 30px 12% 0;
+                 }
+                 
+ .navbar a{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+
+
+  
+
+   }
+   .navbara:hover,navbar a.active{
+    color: red;
+    border-bottom: 3px solid pink ;
+
+   }
+   .home{
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(23, 103, 161);
+    display:flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+   
+}
+   
+   .home-content{
+max-width: 800px;
+}
+.home-content h3{
+font-size: 42px;
+}
+.home-content hi{
+font-size: 62px;
+line-height:1.2;
+}
+.home-content p{
+   font-size:100px;
+   margin:25px 0 30px;
+}
+  
+.center{
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+
+}
+.contact-form h2{
+text-align: center;
+margin-top: 3em;
+margin-bottom: 1em;
+font-size: 36px;
+}
+.contact-form form{
+max-width: 50em;
+margin: 1rem auto;
+text-align: center;
+margin-bottom: 3em;
+}
+.contact-form form .input-box{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.contact-form form .input-box input,
+.contact-form form textarea{
+width: 100%;
+padding: 1.5em;
+font-size: 18px;
+color: black;
+background: rgb(241, 241, 241);
+border-radius: .8rem;
+margin: 1rem 0;
+resize: none;
+}
+.loc{
+    border-radius: 30%;
+}
+
+
+
+
+
+
+        
+    </style>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale-1.0">
+
+<title>Ajit Shoes</title>
+
+</head>
+
+<body >
+
+
+
+<header class="header">
+    
+<nav class="navbar">
+<a href="#">Home</a> 
+<a href="#loc">Location</a>
+<a href="#contact-me" class="contact">Contact Us</a>
+<a href="#pro" class="btn-2">Products</a>
+</nav>
+
+</header>
+<center><img src="logo2.jpg" alt="logo" class="center">
+<section class="Home">
+    <div class="Home-content">
+        <h2>Hi</h2>
+        <h1>Ajit Shoes <span style="color:rgb(57, 201, 233)">&</span>The Brand Showroom</h1>
+        <p><h3><em>"Step into style and comfort with our exquisite collection of footwear. From elegant heels to casual sneakers, we have something for every occasion. Explore our wide range of designs and find the perfect pair to match your unique personality."</em>
+        </h3> </p>
+       
+    
+    
+   
+           
+            <img src="bg1.jpg" width="800" height="800">
+            
+            <h3 style="background-color: rgb(57, 201, 233);">All types of Sport Shoes , Sneakers and High Heel Sandals are available . </h3> 
+           <div id="pro">
+            <img src="bg2.jpg" width="800" height="800">
+            <img src="bg3.jpg" width="800" height="500">
+            <img src="bg4.jpg" width="800" height="500"></div> 
+        </div>
+</section><br>
+<div id="loc">
+    <a href="https://maps.app.goo.gl/1CubWPdFs11Efc5A8"><h2> OUR LOCATION</h2><br>
+        <img src="loc.jpg" width="500" height="500" class="loc">
+    </a>
+</div>
+
+<section class="contact-form">
+    <div>
+        <p>
+           <h3>Our Pure Kolhapuri Tradition</h3>
+             <img src="bg5.jpg">
+
+        </p>
+    </div>
+
+    <h2 class="contact-me">Contact<span> US</span></h2>
+    <form action="mailto:ajit8858@gmail.com" method="post" enctype="text/plain">
+        <div class="input-box">
+<h5>Give your feedback here!!</h5>
+<input type="text" placeholder="NAME"><br>
+
+<input type="email" placeholder="Email">
+
+</div>
+
+
+<div class="input-box " id="contact-me">
+
+    <input type="text" placeholder="phone number" required ><br>
+
+<label for="Message" > Write Your Experience</label><br>
+    <textarea  id="message" name="message" rows="10" cols="20" required ></textarea>
+    <br><label for="submit"> </label>
+    <input type="submit" id="submit" action="" name="submit" >
+   
+    
+</section>
+</form>
+<p><H3>ALSO CONTACT US ON :</H3>
+    Contact numbers -<br>
+     1. <em>Ajit kamble  >></em> +91  99550 35959<br>
+     2. <em>Abhijit kamble  >></em>+91  96575 39709</p>
+     
+
+</body>
+
+</html>
